@@ -1,7 +1,7 @@
 # Python for Coding Interviews
 
 ## Variables
-```
+```python
 # Variables are dynamicly typed
 n = 0
 print('n =', n)
@@ -28,7 +28,7 @@ print("n =", n)
 ```
 
 ## If-statements
-```
+```python
 # If statements don't need parentheses 
 # or curly braces.
 n = 1
@@ -49,7 +49,7 @@ if ((n > 2 and
 ```
 
 ## Loops
-```
+```python
 n = 5
 while n < 5:
     print(n)
@@ -69,7 +69,7 @@ for i in range(5, 1, -1):
 ```
 
 ## Math
-```
+```python
 # Division is decimal by default
 print(5 / 2)
 
@@ -114,7 +114,7 @@ print(math.pow(2, 200) < float("inf"))
 ```
 
 ## Arrays
-```
+```python
 # Arrays (called lists in python)
 arr = [1, 2, 3]
 print(arr)
@@ -221,7 +221,7 @@ print(arr[0][0], arr[3][3])
 ```
 
 ## Strings
-```
+```python
 # Strings are similar to arrays
 s = "abc"
 print(s[0:2])
@@ -249,7 +249,7 @@ print("".join(strings))
 ```
 
 ## Queues
-```
+```python
 # Queues (double ended queue)
 from collections import deque
 
@@ -269,7 +269,7 @@ print(queue)
 ```
 
 ## HashSets
-```
+```python
 # HashSet
 mySet = set()
 
@@ -294,7 +294,7 @@ print(mySet)
 ```
 
 # HashMaps
-```
+```python
 # HashMap (aka dict)
 myMap = {}
 myMap["alice"] = 88
@@ -329,7 +329,7 @@ for key, val in myMap.items():
 ```
 
 ## Tuples
-```
+```python
 # Tuples are like arrays but immutable
 tup = (1, 2, 3)
 print(tup)
@@ -352,7 +352,7 @@ print((1, 2) in mySet)
 ```
 
 ## Heaps
-```
+```python
 import heapq
 
 # under the hood are arrays
@@ -388,7 +388,7 @@ while arr:
 ```
 
 ## Functions
-```
+```python
 def myFunc(n, m):
     return n * m
 
@@ -426,7 +426,7 @@ val = 3
 double(nums, val)
 ```
 ## Classes
-```
+```python
 class MyClass:
     # Constructor
     def __init__(self, nums):
