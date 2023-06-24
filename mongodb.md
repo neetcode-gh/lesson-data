@@ -32,11 +32,11 @@ db.coll.drop()    // removes the collection `coll`
 
 Create a collection with a `$jsonschema` validator
 ```javascript
-# Create collection with a $jsonschema
-db.createCollection("contacts", {
+// Create collection with a $jsonschema
+db.createCollection("hosts", {
     validator: {$jsonSchema: {
         bsonType: "object",
-        required: ["phone"], // required fields
+        required: ["email"], // required fields
         properties: {
             // All possible fields
             phone: {
@@ -48,10 +48,6 @@ db.createCollection("contacts", {
                 pattern: "@mongodb\.com$",
                 description: "must be a string and match the regular expression pattern"
             },
-            status: {
-                enum: [ "Unknown", "Incomplete" ],
-                description: "can only be one of the enum values"
-            }
         }
     }}
 })
@@ -73,6 +69,8 @@ db.coll.count({name: "Navi"}) // count all documents with name "Navi"
 db.coll.find() // list all documents
 db.coll.find({name: "Navi"}) // list all documents with name "Navi"
 db.coll.find({name: "Navi", age: 25}).limit(1) // list all documents with name "Navi" and age 25, and return only one document.
+
+db.coll.find({name: "Navi"}).explain("executionStats") // find document and show execution stats
 ```
 
 #### Update
@@ -87,9 +85,8 @@ db.coll.updateMany({age: {$exists: true}}, {$unset: {age: ""}}) // remove age fi
 
 #### Delete
 ```javascript
-db.coll.remove({name: "Navi"}) // remove all documents with name "Navi"
-db.coll.remove({name: "Navi"}, {justOne: true}) // remove one document with name "Navi"
-db.coll.remove({}) // deletes all the docs but not the collection itself and its index definitions
+db.coll.deleteMany({name: "Navi"}) // remove all documents with name "Navi"
+db.coll.deleteOne({name: "Navi"}) // remove one document with name "Navi"
 ```
 
 
@@ -149,7 +146,20 @@ db.listingsAndReviews.aggregate([
 #### $lookup (Join)
 
 ```javascript
-
+db.accounts.aggregate([
+   {
+      $lookup:
+        {
+          from: "transactions",         // join with 'transactions' collection
+          localField: "account_id",     // field from the 'accounts' collection
+          foreignField: "account_id",   // field from the 'transactions' collection
+          as: "customer_orders"         // output array field
+        }
+   },
+   {
+      $match: { $expr: { $lt: [ {$size: "$customer_orders"}, 5 ] } } // filter for documents where 'customer_orders' is < 5
+   },
+])
 ```
 
 ## References
