@@ -29,34 +29,34 @@ The scope of YouTube is very large, such that even "trivial" features like ratin
 
 Google Cloud Storage will be used to host the raw and processed videos. This is a simple, scalable, and cost effective solution for storing and serving large files.
 
-### Video Upload Events (Cloud Pub/Sub)
+### **Video Upload Events (Cloud Pub/Sub)**
 
 When a video is uploaded, we will publish a message to a Cloud Pub/Sub topic. This will allow us to add a durability layer for video upload events and process videos asynchronously. 
 
-### Video Processing Workers (Cloud Run)
+### **Video Processing Workers (Cloud Run)**
 
 When a video upload event is published, a video processing worker will receive a message from Pub/Sub and transcode the video. The nature of video processing can lead to inconsistent workloads, so we will use Cloud Run to scale up and down as needed. Processed videos will be uploaded back to Cloud Storage.
 
-### Video Metadata (Firestore)
+### **Video Metadata (Firestore)**
 
 After a video is processed, we will store the metadata in Firestore. This will allow us to display processed videos in the web client along with other relevant info (e.g. title, description, etc).
 
-### Video API (Firebase Functions)
+### **Video API (Firebase Functions)**
 
 We will use Firebase Functions to build a simple API that will allow users to upload videos and retrieve video metadata. This can easily be extended to support additional Create, Read, Update, Delete (CRUD) operations.
 
 
-### Web Client (Next.js / Cloud Run)
+### **Web Client (Next.js / Cloud Run)**
 
 We will use Next.js to build a simple web client that will allow users to sign in and upload videos. The web client will be hosted on Cloud Run.
 
-### Authentication (Firebase Auth)
+### **Authentication (Firebase Auth)**
 
 We will use Firebase Auth to handle user authentication. This will allow us to easily integrate with Google Sign In.
 
 ## Detailed Design
 
-### 1. User Sign Up
+### **1. User Sign Up**
 
 Users can sign up using their Google account and this easily handled by Firebase Auth. A user record will be created including a unique auto-generated ID for the user, as well as the user's email address.
 
@@ -68,7 +68,7 @@ What if there is an network issue or the user's browser crashes right after the 
 
 Fortunately, Firebase Auth provides [triggers](https://firebase.google.com/docs/functions/auth-events) so that we don't have to rely on the client for this operation. We can just trigger a Firebase Function (i.e. a server-side endpoint) to create the user document whenever a new user is created.
 
-### 2. Video Upload
+### **2. Video Upload**
 
 Ideally, we should only allow authenticated users to upload videos. This will allow us to associate the uploaded video with the user who uploaded it. In the future this could also allow us to enforce quotas on video uploads (e.g. 10 videos per day).
 
@@ -80,7 +80,7 @@ But to prevent unauthorized users from uploading videos, we will generate a [sig
 
 The signed URL can be used directly from the client to upload a video to our private Cloud Storage bucket for raw videos.
 
-### 3. Video Processing
+### **3. Video Processing**
 
 We'd like to process videos as soon as they come in, but it's possible that we could receive a large number of uploads at once which we can't immediately process. To solve this problem we will introduce a message queue to our system - Cloud Pub/Sub.
 
