@@ -23,9 +23,9 @@ The scope of YouTube is very large, such that even "trivial" features like ratin
 ## High Level Design
 
 ![diagram](https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/2d33be5f-6a51-4475-6975-7350d9d3d700/public)
-> The high level architecture of the app, specifically the cloud service we will use.
+> The high level architecture of the app, specifically the cloud services we will use.
 
-### Video Storage (Cloud Storage)
+### **Video Storage (Cloud Storage)**
 
 Google Cloud Storage will be used to host the raw and processed videos. This is a simple, scalable, and cost effective solution for storing and serving large files.
 
