@@ -103,7 +103,7 @@ I won't discuss these in-depth here, but see the next section for more details.
 
 ## Limitations & Future Work
 
-Please see the [limitations](./limitations.md) section for a detailed list of limitations and potential future tasks.
+Please see the [limitations](http://neetcode.io/courses/full-stack-dev/21) section for a detailed list of limitations and potential future tasks.
 
 ## References
 
