@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This document describes the design of a simplified YouTube clone. The goal of this project is *not* to build a 1 to 1 clone of YouTube, but rather to build a rough skeleton where the core functionality of YouTube is implemented. 
+This document designs a simplified YouTube clone, which I implemented within my [Full Stack Development course](https://neetcode.io/courses/full-stack-dev/0).
+
+The goal of this project is *not* to build a 1 to 1 clone of YouTube, but rather to build a rough skeleton where the core functionality of YouTube is implemented. 
 
 We are focused on keeping the design as simple as possible, while still addressing some scalability tradeoffs. We are focused on learning, not building a production ready system.
 
