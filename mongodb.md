@@ -216,6 +216,3 @@ db.coll.dropIndex("name_1") // drop index
 
 ## References
 - https://www.mongodb.com/developer/products/mongodb/cheat-sheet/
-
-
-
