@@ -37,7 +37,9 @@ When a video is uploaded, we will publish a message to a Cloud Pub/Sub topic. Th
 
 ### **Video Processing Workers (Cloud Run)**
 
-When a video upload event is published, a video processing worker will receive a message from Pub/Sub and transcode the video. The nature of video processing can lead to inconsistent workloads, so we will use Cloud Run to scale up and down as needed. Processed videos will be uploaded back to Cloud Storage.
+When a video upload event is published, a video processing worker will receive a message from Pub/Sub and transcode the video. For transcoding the video we will use [ffmpeg](https://ffmpeg.org/), which is a popular open source tool for video processing and it's widely used in industry (including at YouTube).
+
+The nature of video processing can lead to inconsistent workloads, so we will use Cloud Run to scale up and down as needed. Processed videos will be uploaded back to Cloud Storage.
 
 ### **Video Metadata (Firestore)**
 
