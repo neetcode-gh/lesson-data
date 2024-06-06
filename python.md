@@ -1,4 +1,4 @@
-# Python for Coding Interviews
+# Python Cheat Sheet
 
 ## Variables
 ```python
