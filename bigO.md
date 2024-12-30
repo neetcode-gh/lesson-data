@@ -1,7 +1,7 @@
 ## O( 1 )
 
 
-![](./assets/constant.gif)
+![](https://nc-gifs.pages.dev/constant.gif)
 
 ```python
 # Array
@@ -23,7 +23,7 @@ hashMap.pop("key")      # remove
 
 ## O( n )
 
-![](./assets/linear.gif)
+![](https://nc-gifs.pages.dev/linear.gif)
 
 ```python
 nums = [1, 2, 3]
@@ -44,7 +44,7 @@ heapq.heapify(nums) # build heap
 
 ## O( n^2 )
 
-![](./assets/n%20squared.gif)
+![](https://nc-gifs.pages.dev/n%20squared.gif)
 
 ```python
 # Traverse a square grid
@@ -65,7 +65,7 @@ for i in range(len(nums)):
 
 ## O( n * m )
 
-![](./assets/onm.gif)
+![](https://nc-gifs.pages.dev/onm.gif)
 
 ```python
 # Get every pair of elements from two arrays
@@ -91,7 +91,7 @@ for i in range(len(nums)):
 
 ## O( logn )
 
-![](./assets/logn.gif)
+![](https://nc-gifs.pages.dev/logn.gif)
 
 ```python
 # Binary search
@@ -129,7 +129,7 @@ heapq.heappop(minHeap)
 
 ## O( nlogn )
 
-![](./assets/nlogn.gif)
+![](https://nc-gifs.pages.dev/nlogn.gif)
 
 ```python
 # HeapSort
@@ -144,7 +144,7 @@ while nums:
 
 ## O( 2^n )
 
-![](./assets/2^n.gif)
+![](https://nc-gifs.pages.dev/2%5En.gif)
 
 ```python
 # Recursion, tree height n, two branches
@@ -169,7 +169,7 @@ def recursion(i, nums, c):
 
 ## O( n! )
 
-![](./assets/n!.gif)
+![](https://nc-gifs.pages.dev/n!.gif)
 
 ```python
 # Permutations
@@ -187,7 +187,7 @@ def permute(nums):
 
 ## O( sqrt(n) )
 
-![](./assets/sqrt(n).gif)
+![](![./assets/sqrt(n).gif](https://nc-gifs.pages.dev/sqrt(n).gif))
 
 ```python
 # Get all factors of n
