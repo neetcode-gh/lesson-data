@@ -187,7 +187,7 @@ def permute(nums):
 
 ## O( sqrt(n) )
 
-![](![./assets/sqrt(n).gif](https://nc-gifs.pages.dev/sqrt(n).gif))
+![](https://nc-gifs.pages.dev/sqrt(n).gif)
 
 ```python
 # Get all factors of n
