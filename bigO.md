@@ -1,4 +1,8 @@
-O( 1 )
+## O( 1 )
+
+
+![](./assets/constant.gif)
+
 ```python
 # Array
 nums = [1, 2, 3]
@@ -17,7 +21,10 @@ print(hashMap["key"])   # lookup
 hashMap.pop("key")      # remove
 ```
 
-O( n )
+## O( n )
+
+![](./assets/linear.gif)
+
 ```python
 nums = [1, 2, 3]
 sum(nums)           # sum of array
@@ -35,7 +42,10 @@ heapq.heapify(nums) # build heap
 # (e.g. monotonic stack or sliding window)
 ```
 
-O( n^2 )
+## O( n^2 )
+
+![](./assets/n%20squared.gif)
+
 ```python
 # Traverse a square grid
 nums = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -53,7 +63,10 @@ for i in range(len(nums)):
 # Insertion sort (insert in middle n times -> n^2)
 ```
 
-O( n * m )
+## O( n * m )
+
+![](./assets/onm.gif)
+
 ```python
 # Get every pair of elements from two arrays
 nums1, nums2 = [1, 2, 3], [4, 5]
@@ -76,7 +89,10 @@ for i in range(len(nums)):
 ```
 
 
-O( logn )
+## O( logn )
+
+![](./assets/logn.gif)
+
 ```python
 # Binary search
 nums = [1, 2, 3, 4, 5]
@@ -111,7 +127,10 @@ heapq.heappop(minHeap)
 ```
 
 
-O( nlogn )
+## O( nlogn )
+
+![](./assets/nlogn.gif)
+
 ```python
 # HeapSort
 import heapq
@@ -123,7 +142,10 @@ while nums:
 # MergeSort (and most built-in sorting functions)
 ```
 
-O( 2^n )
+## O( 2^n )
+
+![](./assets/2^n.gif)
+
 ```python
 # Recursion, tree height n, two branches
 def recursion(i, nums):
@@ -133,7 +155,8 @@ def recursion(i, nums):
     branch2 = recursion(i + 2, nums)
 ```
 
-O( c^n )
+## O( c^n )
+
 ```python
 # c branches, where c is sometimes n.
 def recursion(i, nums, c):
@@ -144,7 +167,28 @@ def recursion(i, nums, c):
         branch = recursion(j + 1, nums)
 ```
 
-O( sqrt(n) )
+## O( n! )
+
+![](./assets/n!.gif)
+
+```python
+# Permutations
+def permute(nums):
+    def backtrack(path, nums):
+        if not nums:
+            res.append(path)
+            return
+        for i in range(len(nums)):
+            backtrack(path + [nums[i]], nums[:i] + nums[i + 1:])
+    res = []
+    backtrack([], nums)
+    return res
+```
+
+## O( sqrt(n) )
+
+![](./assets/sqrt(n).gif)
+
 ```python
 # Get all factors of n
 import math
