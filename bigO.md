@@ -79,7 +79,11 @@ nums = [[1, 2, 3], [4, 5, 6]]
 for i in range(len(nums)):
     for j in range(len(nums[i])):
         print(nums[i][j])
-O( n^3 )
+```
+
+## O( n^3 )
+
+```python
 # Get every triplet of elements in array
 nums = [1, 2, 3]
 for i in range(len(nums)):
@@ -198,7 +202,4 @@ for i in range(1, int(math.sqrt(n)) + 1):
     if n % i == 0:
         factors.add(i)
         factors.add(n // i)
-O( n! )
-# Permutations
-# Travelling Salesman Problem
 ```
