@@ -1,4 +1,4 @@
-# Sorting Algorithm Implementations
+# Sorting Algorithm Cheat Sheet
 
 ## 1. Insertion Sort
 
