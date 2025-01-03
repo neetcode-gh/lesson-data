@@ -479,7 +479,7 @@ function bucketSort(arr) {
 }
 ```
 
+::tabs-end
+
 Time Complexity: $O(n)$
 Space Complexity: $O(n + k)$, where $k$ is the number of buckets
-
-::tabs-end
