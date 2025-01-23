@@ -1,4 +1,7 @@
-# Top 8 Data Structures for Coding Interviews. 
+# Top 8 Data Structures for Coding Interviews
+
+> Updated: Jan 22, 2025
+> Author: Navdeep Singh
 
 ## 1. Arrays
 

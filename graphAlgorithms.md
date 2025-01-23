@@ -1,5 +1,8 @@
 # 5 Most Important Graph Algorithms
 
+> Updated: Jan 22, 2025
+> Author: Navdeep Singh
+
 Graphs are an extremely common question type in coding interviews, mainly because a graph is an abstract concept, rather than a data structure stored in memory. From highway networks to LinkedIn connections, and even file directories, can be represented as graphs.
 I've combined a list of 5 common graph algorithms that will be helpful to you in coding interviews.
 

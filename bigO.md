@@ -1,5 +1,15 @@
+# Big O Notation Cheat Sheet
+
+> Updated: Jan 23, 2025
+> Author: Navdeep Singh
+
+Big O notation is a way to describe the time complexity of an algorithm. It is a measure of how the runtime of an algorithm grows as the input size grows. To learn more about Big O notation, check out the [Data Structures and Algorithms for Beginners](https://neetcode.io/courses/dsa-for-beginners/0) course.
+
+It is important to note that Big O notation is a worst-case scenario. It is the maximum amount of time an algorithm will take to complete.
+
 ## O( 1 )
 
+Constant time complexity. The runtime of the algorithm is constant and does not depend on the input size. For example, accessing an element in an array by its index is O(1) because it takes the same amount of time no matter how large the array is.
 
 ![](https://nc-gifs.pages.dev/constant.gif)
 
@@ -23,6 +33,8 @@ hashMap.pop("key")      # remove
 
 ## O( n )
 
+Linear time complexity. The runtime of the algorithm grows linearly with the input size. For example, iterating through an array of size n is O(n) because it takes the same amount of time no matter how large the array is.
+
 ![](https://nc-gifs.pages.dev/linear.gif)
 
 ```python
@@ -43,6 +55,10 @@ heapq.heapify(nums) # build heap
 ```
 
 ## O( n^2 )
+
+Quadratic time complexity. The runtime of the algorithm grows quadratically with the input size. For example, iterating through an array of size n and then iterating through an array of size n again is O(n^2) because it takes n * n operations to complete.
+
+Even if the inner loop does not run for the entire length of the outer loop, the time complexity is still O(n^2) because the outer loop runs n times and the inner loop runs proportionally to the length of the input array.
 
 ![](https://nc-gifs.pages.dev/n%20squared.gif)
 
@@ -65,6 +81,8 @@ for i in range(len(nums)):
 
 ## O( n * m )
 
+This is the time complexity of a nested loop where the inner loop runs m times for each iteration of the outer loop. For example, iterating through an array of size n and then iterating through an array of size m is O(n * m) because it takes n * m operations to complete.
+
 ![](https://nc-gifs.pages.dev/onm.gif)
 
 ```python
@@ -83,6 +101,8 @@ for i in range(len(nums)):
 
 ## O( n^3 )
 
+Cubic time complexity. The runtime of the algorithm grows cubically with the input size. For example, iterating through an array of size n and then iterating through an array of size n again and then iterating through an array of size n again is O(n^3) because it takes n * n * n operations to complete.
+
 ```python
 # Get every triplet of elements in array
 nums = [1, 2, 3]
@@ -94,6 +114,8 @@ for i in range(len(nums)):
 
 
 ## O( logn )
+
+Logarithmic time complexity. The runtime of the algorithm grows logarithmically with the input size. For example, searching for an element in a sorted array is O(logn) because it takes the same amount of time no matter how large the array is.
 
 ![](https://nc-gifs.pages.dev/logn.gif)
 
@@ -133,6 +155,8 @@ heapq.heappop(minHeap)
 
 ## O( nlogn )
 
+The runtime of the algorithm grows linearly with the input size and the logarithm of the input size. For example, sorting an array is O(nlogn) because it takes n operations to sort the array and logn operations to sort each element.
+
 ![](https://nc-gifs.pages.dev/nlogn.gif)
 
 ```python
@@ -148,6 +172,8 @@ while nums:
 
 ## O( 2^n )
 
+Exponential time complexity. The runtime of the algorithm grows exponentially with the input size. For example, generating all permutations of an array is O(2^n) because there are 2^n possible permutations.
+
 ![](https://nc-gifs.pages.dev/2%5En.gif)
 
 ```python
@@ -161,6 +187,8 @@ def recursion(i, nums):
 
 ## O( c^n )
 
+Exponential time complexity. The runtime of the algorithm grows exponentially with the input size. For example, generating all permutations of an array is O(2^n) because there are 2^n possible permutations.
+
 ```python
 # c branches, where c is sometimes n.
 def recursion(i, nums, c):
@@ -172,6 +200,8 @@ def recursion(i, nums, c):
 ```
 
 ## O( n! )
+
+Factorial time complexity. The runtime of the algorithm grows factorially with the input size. For example, generating all permutations of an array is O(n!) because there are n! possible permutations.
 
 ![](https://nc-gifs.pages.dev/n!.gif)
 
@@ -190,6 +220,8 @@ def permute(nums):
 ```
 
 ## O( sqrt(n) )
+
+Square root time complexity. The runtime of the algorithm grows as the square root of the input size. For example, finding all factors of a number is O(sqrt(n)) because there are sqrt(n) possible factors.
 
 ![](https://nc-gifs.pages.dev/sqrt(n).gif)
 

@@ -1,6 +1,15 @@
 # Sorting Algorithm Cheat Sheet
 
+> Updated: Jan 22, 2025
+> Author: Navdeep Singh
+
 ## 1. Insertion Sort
+
+Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. 
+
+It sorts the array by inserting each element into its correct position. At any point, the left side of the array is sorted while the right side is unsorted. We choose the first element in the unsorted array and insert it into the sorted array in the correct position. We then repeat this process for the next element in the unsorted array.
+
+It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
 
 ![](https://nc-gifs.pages.dev/insertion-sort.gif)
 
@@ -72,6 +81,8 @@ Time Complexity: $O(n^2)$
 Space Complexity: $O(1)$
 
 ## 2. Merge Sort
+
+Merge sort is a divide and conquer algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
 
 ![](https://nc-gifs.pages.dev/merge-sort.gif)
 
@@ -248,6 +259,10 @@ Space Complexity: $O(n)$
 
 ## 3. Quick Sort
 
+Quick sort is a divide and conquer algorithm that picks an element as pivot and partitions the given array around the picked pivot.
+
+Unlike merge sort, quick sort is not a stable sort. This means that the input order of equal elements in the sorted output may not be preserved.
+
 ![](https://nc-gifs.pages.dev/quick-sort.gif)
 
 
@@ -345,6 +360,8 @@ Time Complexity: $O(n log n)$
 Space Complexity: $O(log n)$
 
 ## 4. Bucket Sort
+
+Bucket sort is a sorting algorithm that distributes the elements of an array into several groups, called buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.
 
 ![](https://nc-gifs.pages.dev/bucket-sort.gif)
 
