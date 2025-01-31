@@ -1,5 +1,17 @@
 # Python Cheat Sheet
 
+
+> Updated: Jan 22, 2025
+> Author: Navdeep Singh
+
+This guide is a collection of Python code snippets that cover the basics of the language. It is intended to be a quick reference for anyone who is new to Python or needs a refresher.
+
+You may also find the following courses helpful:
+
+- [Python for Beginners](https://neetcode.io/problems/python-hello-world) - Learn the basics of Python with 80 interactive coding challenges.
+- [Python for Coding Interviews](https://neetcode.io/problems/python-sort-custom) - Learn how to use all of the built-in data structures and algorithms in Python.
+- [Python for Object-Oriented Programming](https://neetcode.io/problems/python-intro-to-classes) - Learn how to write object-oriented code in Python.
+
 ## Variables
 ```python
 # Variables are dynamicly typed
