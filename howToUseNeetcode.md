@@ -97,7 +97,7 @@ Just get started. What's the worst that can happen? Maybe you attempt a problem 
 
 Many people are discouraged when they can't solve a problem.
 
-That's perfectly fine. Many of these problems were first solved by professional mathematicians in the past. You're **not** expected to easily figure these algorithms out on your own.
+That's understandable, but consider this: Many of these problems were first solved by professional mathematicians in the past. You're **not** expected to easily figure these algorithms out on your own.
 
 Each problem on NeetCode has a video solution and code solutions in several languages. Take advantage of them. It's not "cheating" to look at the solution. As long as you can understand the solution, you're doing great.
 
