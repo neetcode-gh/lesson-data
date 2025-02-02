@@ -1,6 +1,6 @@
 # How to use NeetCode Effectively (How to prepare for coding interviews)
 
-> Updated: Feb 1, 2025
+> Updated: Feb 2, 2025
 > Author: Navdeep Singh
 
 ## Prerequisites
@@ -9,9 +9,9 @@
 
 ![programming language](https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/a6fa7949-1a3e-488c-0897-961f2619df00/public)
 
-You should be comfortable programming in at least one common programming language. This means you know the basic syntax, like loops, conditionals and functions.
+You should be comfortable programming in at least one common language. This means you know the basic syntax, like loops, conditionals and functions.
 
-I recommend using the Python programming language for coding interviews. It's readable, has good error messages and is easy to learn. I personally learned Python only for coding interviews. It only took a few hours to learn the basics and was well worth it for me.
+I recommend using the Python language for coding interviews. It's readable, has good error messages and is easy to learn. I personally learned Python only for coding interviews and it only took a few hours to learn the basics.
 
 Java and C++ are also good choices. Other common languages like JavaScript and Golang are also fine, but they have less built-in libraries and data structures.
 
@@ -70,7 +70,7 @@ Many hard problems will require you to know one or more of these concepts. Witho
 
 These concepts take time and practice to learn. I recommend learning these concepts as you go. Learn them when you actually encounter them in practice problems, otherwise you will probably forget them anyway.
 
-Unless you're a competitive programmer, willing to dedicate thousands of hours to practicing, it's impossible to know every advanced topic in-depth. Try to priortize the more common & easier topics before moving to the more difficult ones.
+Unless you're a competitive programmer, willing to dedicate thousands of hours to practicing, it's impossible to know every advanced topic in-depth. Try to prioritize the more common & easier topics before moving to the more difficult ones.
 
 You may find these resources on NeetCode helpful for learning these topics:
 
@@ -81,9 +81,9 @@ You may find these resources on NeetCode helpful for learning these topics:
 
 ### 1. Just Start
 
-Just get started. Find a reasonable list of problems and start solving them.
+Just get started and don't overthink it. Find a reasonable list of problems and start solving them.
 
-Solve the first problem in the [NeetCode 150](https://neetcode.io/practice?tab=problems) or [NeetCode 250](https://neetcode.io/practice?tab=problems) list. I promise you will be able to solve it. And then keep going and never look back.
+Solve the first problem in the [NeetCode 150](https://neetcode.io/practice?tab=problems) or [NeetCode 250](https://neetcode.io/practice?tab=problems) list. And then keep going and never look back.
 
 Both of these lists are comprehensive and provide a good mix of easy and hard problems.
 
@@ -95,11 +95,45 @@ Just get started. What's the worst that can happen? Maybe you attempt a problem 
 
 Many people are discouraged when they can't solve a problem.
 
-That's perfectly fine. Many of these problems were solved by mathematicians in the past. It's not expected you would easily be able to figure these algorithms out on your own.
+That's perfectly fine. Many of these problems were first solved by professional mathematicians in the past. You're **not** expected to easily figure these algorithms out on your own.
 
-Each problem on NeetCode has a video solution and code solutions in several languages. Take advantage of them. It's not "cheating" to look at the solution.
+Each problem on NeetCode has a video solution and code solutions in several languages. Take advantage of them. It's not "cheating" to look at the solution. As long as you can understand the solution, you're doing great.
 
-You should try to stretch your brain, and 
+Do *not*:
+
+* Copy and paste the solution.
+* Spend several hours trying to solve a problem you're stuck on.
+* Blindly memorize algorithms without understanding *why* they work.
+
+Do:
+
+* Attempt the problem on your own.
+* Try drawing out the problem on paper.
+* Look at the solution if you're not making progress after 15 - 20 minutes.
+* If you still can't understand the solution, try an easier problem.
+* Revisit problems that were challenging for you.
 
 ### 3. Which topics are most important?
+
+You probably want to maximize your chances of passing the interview, right? How do you know when you are *done preparing and ready for the interview?*
+
+That's the thing. Technically you're never *done* preparing. You will never have a 100% chance of passing any given interview. Think of it more as a game of probability or a distribution.
+
+You might prepare enough that you can pass 50% of interviews, or 90% of interviews, but never 100%.
+
+If you have limited time, here are the most important topics to focus on:
+
+1. Arrays
+2. Hash Maps
+3. Trees
+4. Graphs
+
+
+The hard thing about these topics is that they are very open-ended. For example, arrays are simple, yet there are hundreds of complex algorithms that can be performed on them, like binary search or sliding window problems.
+
+Graphs are even more complex. Some problems may require a simple DFS or BFS, but others may require a complex algorithm like Dijkstra's or a topological sort.
+
+To solve this problem, I created the [NeetCode 150](https://neetcode.io/practice?tab=problems) and [NeetCode 250](https://neetcode.io/practice?tab=problems) lists. These lists touch upon the vast majority of the topics you will see in coding interviews. 
+
+If you're in a rush, you should prioritize the easy and medium problems in these lists. 
 
