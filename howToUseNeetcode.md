@@ -93,6 +93,8 @@ Just get started. What's the worst that can happen? Maybe you attempt a problem 
 
 ### 2. What if I can't solve a Problem?
 
+![Stop Sign](https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/1ac671c1-fe17-4041-b737-f68c38a9d500/public)
+
 Many people are discouraged when they can't solve a problem.
 
 That's perfectly fine. Many of these problems were first solved by professional mathematicians in the past. You're **not** expected to easily figure these algorithms out on your own.
@@ -115,6 +117,8 @@ Do:
 
 ### 3. Which topics are most important?
 
+![Distribution](https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/6f1878b9-f0f3-4082-7de6-c4d1c4969e00/public)
+
 You probably want to maximize your chances of passing the interview, right? How do you know when you are *done preparing and ready for the interview?*
 
 That's the thing. Technically you're never *done* preparing. You will never have a 100% chance of passing any given interview. Think of it more as a game of probability or a distribution.
@@ -129,11 +133,10 @@ If you have limited time, here are the most important topics to focus on:
 4. Graphs
 
 
-The hard thing about these topics is that they are very open-ended. For example, arrays are simple, yet there are hundreds of complex algorithms that can be performed on them, like binary search or sliding window problems.
+The hard thing about these topics is that they are very open-ended. For example, arrays are simple, yet there are hundreds of algorithms that can be performed on them, like binary search or sliding window.
 
-Graphs are even more complex. Some problems may require a simple DFS or BFS, but others may require a complex algorithm like Dijkstra's or a topological sort.
+Graphs are even more complex. Some problems may require a simple DFS, but others may require a complex algorithm like Dijkstra's or a topological sort.
 
 To solve this problem, I created the [NeetCode 150](https://neetcode.io/practice?tab=problems) and [NeetCode 250](https://neetcode.io/practice?tab=problems) lists. These lists touch upon the vast majority of the topics you will see in coding interviews. 
 
-If you're in a rush, you should prioritize the easy and medium problems in these lists. 
-
+You don't need to solve *every* problem in them, but the more you practice the higher your chances. If you're in a rush, you should prioritize the easy and medium problems in these lists. 
