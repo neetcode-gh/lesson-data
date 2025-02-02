@@ -137,6 +137,6 @@ The hard thing about these topics is that they are very open-ended. For example,
 
 Graphs are even more complex. Some problems may require a simple DFS, but others may require a complex algorithm like Dijkstra's or a topological sort.
 
-To solve this problem, I created the [NeetCode 150](https://neetcode.io/practice?tab=problems) and [NeetCode 250](https://neetcode.io/practice?tab=problems) lists. These lists touch upon the vast majority of the topics you will see in coding interviews. 
+To solve this problem, I created the [NeetCode 150](https://neetcode.io/practice?tab=problems) and [NeetCode 250](https://neetcode.io/practice?tab=problems) lists. These lists touch upon the vast majority of the topics you will see in coding interviews. They are ordered in a way that each problem builds on the previous ones.
 
 You don't need to solve *every* problem in them, but the more you practice the higher your chances. If you're in a rush, you should prioritize the easy and medium problems in these lists. 
