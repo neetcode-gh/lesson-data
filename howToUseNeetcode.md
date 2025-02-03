@@ -13,7 +13,9 @@ You should be comfortable programming in at least one common language. This mean
 
 I recommend using the Python language for coding interviews. It's readable, has good error messages and is easy to learn. I personally learned Python only for coding interviews and it only took a few hours to learn the basics.
 
-Java and C++ are also good choices. Other common languages like JavaScript and Golang are also fine, but they have less built-in libraries and data structures.
+Java and C++ are also good choices. Other common languages like JavaScript and Golang are also fine, but they have less built-in libraries and data structures. 
+
+> In a real interview, if your programming language does not have a built-in data structure that you need, your interviewer will let you define your own interface / API for it. You probably won't have to actually implement it from scratch, unless that's part of the problem.
 
 If you're interested in learning Python, you may find these courses on NeetCode helpful:
 
@@ -70,9 +72,9 @@ Many hard problems will require you to know one or more of these concepts. Witho
 
 These concepts take time and practice to learn. I recommend learning these concepts as you go. Learn them when you actually encounter them in practice problems, otherwise you will probably forget them anyway.
 
-Unless you're a competitive programmer, willing to dedicate thousands of hours to practicing, it's impossible to know every advanced topic in-depth. Try to prioritize the more common & easier topics before moving to the more difficult ones.
+Unless you're a competitive programmer willing to dedicate thousands of hours to practicing, it's impossible to know every advanced topic in-depth. Try to prioritize the more common & easier topics before moving to the more difficult ones.
 
-You may find these resources on NeetCode helpful for learning these topics:
+You may find these resources on NeetCode helpful for learning advanced topics:
 
 - [Advanced Algorithms](https://neetcode.io/courses/advanced-algorithms/0) course on NeetCode
 - [Practice Problems](https://neetcode.io/practice?tab=advanced) to implement common advanced algorithms from scratch.
@@ -87,7 +89,7 @@ Solve the first problem in the [NeetCode 150](https://neetcode.io/practice?tab=p
 
 Both of these lists are comprehensive and provide a good mix of easy and hard problems.
 
-> You probably want to plan out the **best** way to study. That's reasonable. But don't overthink it. So many people spend more time thinking about the best way to study than actually studying.
+You probably want to plan out the *best* way to study. That's reasonable. But don't overthink it. So many **people spend more time thinking about the best way to study than actually studying**.
 
 Just get started. What's the worst that can happen? Maybe you attempt a problem that's too difficult. That's fine. You can always come back to it later.
 
@@ -97,33 +99,39 @@ Just get started. What's the worst that can happen? Maybe you attempt a problem 
 
 Many people are discouraged when they can't solve a problem.
 
-That's understandable, but consider this: Many of these problems were first solved by professional mathematicians in the past. You're **not** expected to easily figure these algorithms out on your own.
+But consider this: Many of these problems were first solved by professional mathematicians in the past. You're **not** expected to easily figure these out on your own.
 
 Each problem on NeetCode has a video solution and code solutions in several languages. Take advantage of them. It's not "cheating" to look at the solution. As long as you can understand the solution, you're doing great.
 
-Do *not*:
+**Do not**:
 
 * Copy and paste the solution.
 * Spend several hours trying to solve a problem you're stuck on.
 * Blindly memorize algorithms without understanding *why* they work.
 
-Do:
+**Do**:
 
 * Attempt the problem on your own.
 * Try drawing out the problem on paper.
 * Look at the solution if you're not making progress after 15 - 20 minutes.
-* If you still can't understand the solution, try an easier problem.
-* Revisit problems that were challenging for you.
+* If you can't understand the solution within 45 - 60 minutes, try an easier problem.
+* Revisit problems that were challenging for you, resolve them from scratch.
 
-### 3. Which topics are most important?
+> Tip: The difficulty of some problems is not accurate. Often, there are "medium" problems that are actually more difficult than "hard" problems. Don't focus too much on the difficulty rating, just try to learn the algorithms.
+
+### 3. How do I know I'm ready for FAANG+ interviews?
 
 ![Distribution](https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/6f1878b9-f0f3-4082-7de6-c4d1c4969e00/public)
 
-You probably want to maximize your chances of passing the interview, right? How do you know when you are *done preparing and ready for the interview?*
+You probably want to maximize your chances of passing the interview, right? So how do you decide when you are *done preparing and ready for the interview?*
 
 That's the thing. Technically you're never *done* preparing. You will never have a 100% chance of passing any given interview. Think of it more as a game of probability or a distribution.
 
 You might prepare enough that you can pass 50% of interviews, or 90% of interviews, but never 100%.
+
+A **good rule of thumb** is if you can solve most medium problems that you haven't seen before, within 20 to 25 minutes, you can probably pass most interviews.
+
+### 4. Which topics are most important?
 
 If you have limited time, here are the most important topics to focus on:
 
