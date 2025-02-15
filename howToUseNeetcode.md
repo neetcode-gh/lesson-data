@@ -148,3 +148,57 @@ Graphs are even more complex. Some problems may require a simple DFS, but others
 To solve this problem, I created the [NeetCode 150](https://neetcode.io/practice?tab=problems) and [NeetCode 250](https://neetcode.io/practice?tab=problems) lists. These lists touch upon the vast majority of the topics you will see in coding interviews. They are ordered in a way that each problem builds on the previous ones.
 
 You don't need to solve *every* problem in them, but the more you practice the higher your chances. If you're in a rush, you should prioritize the easy and medium problems in these lists. 
+
+### 5. Other Resources
+
+#### How I would learn DSA If I Could Start Over
+
+<div
+class="video-container"
+style="margin-top: 20px; position: relative; overflow: hidden"
+>
+<iframe
+class="video"
+src="https://www.youtube.com/embed/aHZW7TuY_yo"
+title="Vimeo video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+>
+</iframe>
+</div>
+
+
+#### Mock Coding Interview with Meta Intern
+
+<div
+class="video-container"
+style="margin-top: 20px; position: relative; overflow: hidden"
+>
+<iframe
+class="video"
+src="https://www.youtube.com/embed/46dZH7LDbf8"
+title="Vimeo video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+>
+</iframe>
+</div>
+
+#### How I Failed the Google Coding Interview (And Lessons I Learned)
+
+<div
+class="video-container"
+style="margin-top: 20px; position: relative; overflow: hidden"
+>
+<iframe
+class="video"
+src="https://www.youtube.com/embed/4SUJt3dP2Jc"
+title="Vimeo video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+>
+</iframe>
+</div>
