@@ -33,7 +33,7 @@ hashMap.pop("key")      # remove
 
 ## O( n )
 
-Linear time complexity. The runtime of the algorithm grows linearly with the input size. For example, iterating through an array of size n is O(n) because it takes the same amount of time no matter how large the array is.
+Linear time complexity. The runtime of the algorithm grows linearly with the input size. For example, iterating through an array of size n is O(n) because the time it takes to iterate through the array is proportional to the size of the array. 
 
 ![](https://nc-gifs.pages.dev/linear.gif)
 
@@ -115,7 +115,11 @@ for i in range(len(nums)):
 
 ## O( logn )
 
-Logarithmic time complexity. The runtime of the algorithm grows logarithmically with the input size. For example, searching for an element in a sorted array is O(logn) because it takes the same amount of time no matter how large the array is.
+Logarithmic time complexity. The runtime of the algorithm grows logarithmically with the input size. For example, searching for an element in a sorted array is O(logn). 
+
+If you are not familiar with log math, this just means that the number of times you can divide a number, n, by 2 until you get to 1 is logn.
+
+This is why binary search is O(logn) because you can eliminate half of the elements in the array each time you make a comparison.
 
 ![](https://nc-gifs.pages.dev/logn.gif)
 
