@@ -22,7 +22,7 @@ Knowing and understanding these beforehand can save you a significant amount of 
 | Suffix Sum | Array where each element is sum of all elements after it |
 | Rotation | Shifting array elements by a certain offset |
 | In-place | Algorithm that transforms input without creating another data structure |
-| Anagram | A contiguous portion of an array |
+| Anagram | A string formed by rearranging the characters from another |
 | Lexicographic Order | Dictionary ordering of strings |
 
 ## Trees
