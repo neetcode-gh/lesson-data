@@ -1,6 +1,6 @@
 # How to use NeetCode Effectively (How to prepare for coding interviews)
 
-> Updated: Feb 2, 2025
+> Updated: Jul 3, 2026
 > Author: Navdeep Singh
 
 ## Prerequisites
@@ -58,7 +58,7 @@ You don't need to be familiar with *all* of these topics, but these are almost g
 You may find these resources on NeetCode helpful for learning these topics:
 
 - [Data Structures and Algorithms for Beginners](https://neetcode.io/courses/dsa-for-beginners/0) course on NeetCode
-- [Practice Problems](https://neetcode.io/practice?tab=coreSkills) to implement common data structures and algorithms from scratch.
+- [Practice Problems](https://neetcode.io/practice/practice/coreSkills) to implement common data structures and algorithms from scratch.
 
 ### 3. (Optional) Advanced Algorithms and Math
 
@@ -77,7 +77,7 @@ Unless you're a competitive programmer willing to dedicate thousands of hours to
 You may find these resources on NeetCode helpful for learning advanced topics:
 
 - [Advanced Algorithms](https://neetcode.io/courses/advanced-algorithms/0) course on NeetCode
-- [Practice Problems](https://neetcode.io/practice?tab=advanced) to implement common advanced algorithms from scratch.
+- [Practice Problems](https://neetcode.io/practice/practice/coreSkills) to implement common advanced algorithms from scratch.
 
 ## How to Practice
 
@@ -85,7 +85,7 @@ You may find these resources on NeetCode helpful for learning advanced topics:
 
 Just get started and don't overthink it. Find a reasonable list of problems and start solving them.
 
-Solve the first problem in the [NeetCode 150](https://neetcode.io/practice?tab=problems) or [NeetCode 250](https://neetcode.io/practice?tab=problems) list. And then keep going and never look back.
+Solve the first problem in the [NeetCode 150](https://neetcode.io/practice/practice/neetcode150) or [NeetCode 250](https://neetcode.io/practice/practice/neetcode250) list. And then keep going and never look back.
 
 Both of these lists are comprehensive and provide a good mix of easy and hard problems.
 
@@ -145,7 +145,7 @@ The hard thing about these topics is that they are very open-ended. For example,
 
 Graphs are even more complex. Some problems may require a simple DFS, but others may require a complex algorithm like Dijkstra's or a topological sort.
 
-To solve this problem, I created the [NeetCode 150](https://neetcode.io/practice?tab=problems) and [NeetCode 250](https://neetcode.io/practice?tab=problems) lists. These lists touch upon the vast majority of the topics you will see in coding interviews. They are ordered in a way that each problem builds on the previous ones.
+To solve this problem, I created the [NeetCode 150](https://neetcode.io/practice/practice/neetcode150) and [NeetCode 250](https://neetcode.io/practice/practice/neetcode250) lists. These lists touch upon the vast majority of the topics you will see in coding interviews. They are ordered in a way that each problem builds on the previous ones.
 
 You don't need to solve *every* problem in them, but the more you practice the higher your chances. If you're in a rush, you should prioritize the easy and medium problems in these lists. 
 
